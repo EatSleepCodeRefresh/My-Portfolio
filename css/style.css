@@ -5,6 +5,7 @@ body {
 h1 {
 	color: #00ff00;
 	text-align: Center;
+	text-shadow: 2px 2px black;
 	font-family: 'Audiowide', cursive;
 	font-size: 120px;
 }
@@ -194,10 +195,11 @@ ul li {
 }
 
 footer {
-	color: white;
+	color: red;
 	font-size: 30px;
 	display: inline;
 	padding: 300px;
+	font-family: 'Audiowide', cursive;
 }
 
 
@@ -246,7 +248,7 @@ header img {
 nav li {
 	font-family: 'Audiowide', cursive;
 	display: inline;
-	padding: 0;
+	padding: 20px;
 	text-align: center;
 }
 
@@ -329,33 +331,20 @@ div.home {
 
 div.background-image {
 	background-image: url("../images/background.jpg");
-	margin: 0;
-    padding: 0;
-	position: fixed;
-    top: 0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-size:cover;
+	position: center;
+    background-size:78em;
 } 
 
 div.container {
 	background-image: url("../images/blog.jpg");
 	position: center;
-    background-size:78em;
+    background-size:78em; 
 }
 
 div.portfolio {
 	background-image: url("../images/laptop.jpg");
-	border: red;
-	margin: 0;
-    padding: 0;
-	position: fixed;
-    top: 0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-size: cover;
+	position: center;
+    background-size:78em;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -397,7 +386,8 @@ ul li {
 
 footer {
 	color: red;
-	font-size: 30px;
+	font-size: 40px;
+	text-shadow: 2px 2px black; 
 	font-family: 'Audiowide', cursive;
 	padding: 0;
 }
@@ -408,7 +398,7 @@ footer {
 	nav li {
 	font-family: 'Audiowide', cursive;
 	display: inline;
-	padding: 0;
+	padding: 10px;
 	margin: 0;
 	text-align: center;
 } 
@@ -437,7 +427,7 @@ h1 {
 	color: #00ff00;
 	text-align: center;
 	font-family: 'Audiowide', cursive;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 h2 {
@@ -501,14 +491,11 @@ div.home {
 
 div.background-image {
 	background-image: url("../images/comp2.jpg");
-	margin: 0;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-size: cover;
+	background-position: center;
+    background-size: 78em;
+	width: 32em;
+	
+	
 } 
 
 div.portfolio {
@@ -559,11 +546,11 @@ ul li {
 	list-style-type: none;
 }
 
-footer {
+/* footer {
 	color: red;
-	font-size: 20px;
+	font-size: 30px;
+	text-shadow: 2px 2px black;
 	font-family: 'Audiowide', cursive;
-	padding: 0;
-}
+}*/
 
 }

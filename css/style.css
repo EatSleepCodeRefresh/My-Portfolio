@@ -73,30 +73,26 @@ nav li a:hover {
 	display: inline;
 }
 
-.icon-bar i {
-	float: center;
-}
-
-.icon-bar {
-	width: 50%;
+div.icon-bar {
+	width: 45%;
+	display: inline-block;
 	text-align: center;
-	background-color: white;
-	overflow: auto;
-	margin: 0;
+	background-color: #000000;
+	background-size: 20%;
 	padding: 0;
 }
 
 .icon-bar a {
 	float: left;
 	text-align: center;
-	width: 20%;
+	width: 200px;
 	transition: all 0.3s ease;
 	color: red;
 	font-size: 20px;
 }
 
 .icon-bar a:hover {
-	background-color: #000;
+	background-color: #ffffff;
 }
 
 .icon-bar a:active {
@@ -123,13 +119,14 @@ div.home {
     left:0;
     right:0;
     bottom:0;
-    background-size:100%;
+    background-size:cover;
 }
 
-div.background-image {
+div.contact {
 	background-image: url("../images/background.jpg");
 	margin: 0;
     padding: 0;
+	position: fixed;
     top: 0;
     left:0;
     right:0;
@@ -141,11 +138,13 @@ div.container {
 	background-image: url("../images/blog.jpg");
 	margin: 0;
     padding: 0;
+	position: fixed; 
     top: 0;
     left:0;
     right:0;
     bottom:0;
-    background-size:cover;
+	background-size: cover;
+	overflow: scroll;
 }
 
 div.portfolio {
@@ -158,6 +157,7 @@ div.portfolio {
     right:0;
     bottom:0;
     background-size: cover;
+	\
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -197,8 +197,9 @@ ul li {
 footer {
 	color: red;
 	font-size: 30px;
-	display: inline;
-	padding: 300px;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	padding: 0;
 	font-family: 'Audiowide', cursive;
 }
 
@@ -241,6 +242,17 @@ h4 {
 	opacity: 0.8;
 }
 
+h6 {
+	color: #000000;
+	text-align: center;
+	padding: 1em;
+	font-family: 'Audiowide', cursive;
+	font-size: 20px;
+	background: white;
+	background-position: left;
+	width: 40%;
+}
+
 header img {
 	width: 100%;
 }
@@ -248,7 +260,7 @@ header img {
 nav li {
 	font-family: 'Audiowide', cursive;
 	display: inline;
-	padding: 20px;
+	padding: 40px;
 	text-align: center;
 }
 
@@ -286,28 +298,26 @@ nav li a:hover {
 .tablet{
 	display: inline;
 }
-.icon-bar i {
-	float: center;
-}
-.icon-bar {
-	width: 100%;
+
+div.icon-bar {
+	width: 45%;
+	display: inline-block;
 	text-align: center;
-	background-color: white;
-	overflow: auto;
-	margin: 0;
+	background-color: #000000;
+	background-size: 20%;
 	padding: 0;
 }
 
-.icon-bar a {
+div.icon-bar a {
 	text-align: center;
-	width: 20%;
+	width: 30%;
 	transition: all 0.3s ease;
 	color: red;
 	font-size: 20px;
 }
 
 .icon-bar a:hover {
-	background-color: #000;
+	background-color: #ffffff;
 }
 
 .icon-bar a:active {
@@ -329,16 +339,18 @@ div.home {
     background-size: 78em;
 }
 
-div.background-image {
+div.contact {
 	background-image: url("../images/background.jpg");
 	position: center;
     background-size:78em;
+	overflow: scroll;
 } 
 
 div.container {
 	background-image: url("../images/blog.jpg");
 	position: center;
     background-size:78em; 
+	overflow: scroll;
 }
 
 div.portfolio {
@@ -386,7 +398,7 @@ ul li {
 
 footer {
 	color: red;
-	font-size: 40px;
+	font-size: 30px;
 	text-shadow: 2px 2px black; 
 	font-family: 'Audiowide', cursive;
 	padding: 0;
@@ -395,7 +407,7 @@ footer {
 }
 
 @media (max-width: 480px) {
-	nav li {
+nav li {
 	font-family: 'Audiowide', cursive;
 	display: inline;
 	padding: 10px;
@@ -446,13 +458,15 @@ h3 {
 	opacity: 0.8;
 }
 
-h4 {
+h6 {
 	color: #000000;
 	text-align: center;
+	padding: 1em;
 	font-family: 'Audiowide', cursive;
 	font-size: 15px;
 	background: white;
 	background-position: left;
+	width: 100%;
 }
 
 img {
@@ -489,37 +503,29 @@ div.home {
 	width: 32em;
 }
 
-div.background-image {
+div.contact {
 	background-image: url("../images/comp2.jpg");
 	background-position: center;
     background-size: 78em;
 	width: 32em;
+	overflow: scroll;
 	
 	
 } 
-
-div.portfolio {
-	background-image: url("../images/photo.png");
-	border: red;
-	margin: 0;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-size: cover;
+div.mport img {
+	display: grid;
+	margin-bottom: 8px;
+	margin-right: 8px;
+	width: 50%;
+	padding: 1em;
+	border: solid red;
+	border-radius: 1em;
 }
-
+ 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 50%;
     height: 380px
-	}
-
-#social a:hover{
-	
 }
-	
 
 div h3 {
 	color: yellow;
@@ -545,12 +551,11 @@ span {
 ul li {
 	list-style-type: none;
 }
-
-/* footer {
+ footer {
 	color: red;
-	font-size: 30px;
+	font-size: 20px;
 	text-shadow: 2px 2px black;
 	font-family: 'Audiowide', cursive;
-}*/
+}
 
 }

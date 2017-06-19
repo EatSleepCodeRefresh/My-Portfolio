@@ -242,17 +242,6 @@ h4 {
 	opacity: 0.8;
 }
 
-h6 {
-	color: #000000;
-	text-align: center;
-	padding: 1em;
-	font-family: 'Audiowide', cursive;
-	font-size: 20px;
-	background: white;
-	background-position: left;
-	width: 40%;
-}
-
 header img {
 	width: 100%;
 }
@@ -260,7 +249,7 @@ header img {
 nav li {
 	font-family: 'Audiowide', cursive;
 	display: inline;
-	padding: 40px;
+	padding: 30px;
 	text-align: center;
 }
 
@@ -410,7 +399,7 @@ footer {
 nav li {
 	font-family: 'Audiowide', cursive;
 	display: inline;
-	padding: 10px;
+	padding: 5px;
 	margin: 0;
 	text-align: center;
 } 

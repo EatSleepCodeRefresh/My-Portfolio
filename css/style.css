@@ -65,6 +65,12 @@ nav li a:hover {
 	color: #ffffff;
 }
 
+img {
+	border: solid red;
+	border-radius: 1em;
+}
+
+
 .mobile {
 	display:none;
 }
@@ -461,6 +467,12 @@ h6 {
 img {
 	size: 20px;
 }
+
+img p {
+	color: red;
+	font-family: 'Audiowide', cursive;
+}
+
 
 .mobile {
 	display:inline;
